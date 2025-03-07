@@ -17,4 +17,139 @@
     list-style-type: none;
     display: flex;
     gap: 12px;
+    font-size:18px;
+    color: #E5E7EB;
+}
+
+.left-header {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+
+.title {
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+    background-color: #1f2937;
+    color: white; 
+}
+
+.title-text {
+    flex-basis: 450px
+}
+
+.title-text p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 10px;
+
+}
+
+.title-text h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    line-height: 1;
+    margin-bottom: 10px;
+}
+
+.title-text button {
+    height: 25 px;
+    width: 100px;
+    padding: 5px 10px;
+    color: white;
+    background-color: #3882F6;
+    border-radius: 10px;
+    border: none;
+}
+
+.image {
+    background-color: grey;
+    height: 250px;
+    flex-basis: 500px;
+    text-align: center;
+}
+
+.random-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+.random-info h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.random-boxes {
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.image-placeholder {
+    height: 150px ;
+    width: 150px;
+    border:5px solid #3882F6;
+    border-radius: 10px;
+}
+
+.random-box p {
+    width: 150px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7Eb;
+    padding: 150px;
+}
+
+.quote {
+    width: 600px;
+    font-size: 32px;
+    font-style: light italic;
+
+}
+
+.call-to-action-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    min-width: 1000px;
+    padding: 50px;
+    border-radius: 10px;
+    color: #E5E7EB;
+}
+
+.call-to-action button {
+    color: #E5E7EB;
+    color: E5E7EB;
+    background-color: #3882F6;
+    border: 2px solid #E5E7EB;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+}
+
+footer {
+    text-align: center;
+    color: #E5E7EB;
+    padding: 50px;
+    background-color: #1F2937;
 }
